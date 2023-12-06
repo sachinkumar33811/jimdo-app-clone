@@ -118,7 +118,7 @@ body {
   font-weight: 700;
   color: rgb(33, 86, 250);
 }
-.blue {
+#blue {
   background-color: rgb(1, 3, 52);
   height: 250px;
   color: white;
@@ -348,3 +348,82 @@ li:hover{
   font-weight: 500;
   font-size: 20px;
 }
+.dropbtn{
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+  
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px gray;
+  z-index: 1;
+}
+.dropdown-content a{
+  color: black;
+  display: block;
+  padding: 12px 16px;
+
+}
+.dropdown-content a:hover{
+  background-color: white;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+.dropdown:hover .dropbtn{
+  background-color: aqua;
+
+}
+
+
+
+
+.dropbtn2{
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.dropdown2{
+  position: relative;
+  display: inline-block;
+  
+}
+.dropdown-content2{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px gray;
+  z-index: 1;
+}
+.dropdown-content2 a{
+  color: black;
+  display: block;
+  padding: 12px 16px;
+
+}
+.dropdown-content2 a:hover{
+  background-color: white;
+}
+.dropdown2:hover .dropdown-content2{
+display: block;
+}
+.dropdown2:hover .dropbtn2{
+  background-color: aqua;
+  
+}
+

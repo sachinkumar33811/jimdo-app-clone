@@ -22,7 +22,7 @@ const Content = () => {
        
       </div>
       <div className="videosection">
-          <img id="vid" src="../public/images/photo_2023-12-03_12-13-59.jpg" alt="" />
+          <video controls autoPlay muted loops id="vid" src="../public/images/website_section.mp4" alt="" />
           <div className="weblist">
             <ul id="listthree">
               <li>Make changes any time</li>
@@ -34,7 +34,7 @@ const Content = () => {
             <p id="website"><u>How to create a website</u></p>
           </div>
         </div>
-        <div className="blue">
+        <div id="blue">
       <p>Create your website today.</p>
       <button id="buttontwo">Let's get started</button>
 
